@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/style.css';
 
 function AddEntry({ onAdd }) {
 const [input, setInput] = useState('');
